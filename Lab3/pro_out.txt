@@ -1,0 +1,306 @@
+CMD                             PID S
+/sbin/init splash                 1 S
+[kthreadd]                        2 S
+[rcu_gp]                          3 I
+[rcu_par_gp]                      4 I
+[kworker/0:0H-events_highpr       6 I
+[mm_percpu_wq]                    9 I
+[rcu_tasks_rude_]                10 S
+[rcu_tasks_trace]                11 S
+[ksoftirqd/0]                    12 S
+[rcu_sched]                      13 I
+[migration/0]                    14 S
+[cpuhp/0]                        15 S
+[cpuhp/1]                        16 S
+[migration/1]                    17 S
+[ksoftirqd/1]                    18 S
+[kworker/1:0H-events_highpr      20 I
+[cpuhp/2]                        21 S
+[migration/2]                    22 S
+[ksoftirqd/2]                    23 S
+[kworker/2:0H-events_highpr      25 I
+[cpuhp/3]                        26 S
+[migration/3]                    27 S
+[ksoftirqd/3]                    28 S
+[kworker/3:0H-events_highpr      30 I
+[kdevtmpfs]                      35 S
+[netns]                          36 I
+[kauditd]                        37 S
+[khungtaskd]                     39 S
+[oom_reaper]                     40 S
+[writeback]                      41 I
+[kcompactd0]                     42 S
+[ksmd]                           43 S
+[khugepaged]                     44 S
+[kworker/3:1-events]             46 I
+[kworker/1:1-mpt_poll_0]         60 I
+[kintegrityd]                    65 I
+[kblockd]                        66 I
+[blkcg_punt_bio]                 67 I
+[edac-poller]                    68 I
+[devfreq_wq]                     69 I
+[kworker/0:1H-kblockd]           70 I
+[kswapd0]                        71 S
+[kthrotld]                       72 I
+[irq/24-pciehp]                  73 S
+[irq/25-pciehp]                  74 S
+[irq/26-pciehp]                  75 S
+[irq/27-pciehp]                  76 S
+[irq/28-pciehp]                  77 S
+[irq/29-pciehp]                  78 S
+[irq/30-pciehp]                  79 S
+[irq/31-pciehp]                  80 S
+[irq/32-pciehp]                  81 S
+[irq/33-pciehp]                  82 S
+[irq/34-pciehp]                  83 S
+[irq/35-pciehp]                  84 S
+[irq/36-pciehp]                  85 S
+[irq/37-pciehp]                  86 S
+[irq/38-pciehp]                  87 S
+[irq/39-pciehp]                  88 S
+[irq/40-pciehp]                  89 S
+[irq/41-pciehp]                  90 S
+[irq/42-pciehp]                  91 S
+[irq/43-pciehp]                  92 S
+[irq/44-pciehp]                  93 S
+[irq/45-pciehp]                  94 S
+[irq/46-pciehp]                  95 S
+[irq/47-pciehp]                  96 S
+[irq/48-pciehp]                  97 S
+[irq/49-pciehp]                  98 S
+[irq/50-pciehp]                  99 S
+[irq/51-pciehp]                 100 S
+[irq/52-pciehp]                 101 S
+[irq/53-pciehp]                 102 S
+[irq/54-pciehp]                 103 S
+[irq/55-pciehp]                 104 S
+[acpi_thermal_pm]               105 I
+[kworker/1:1H-kblockd]          106 I
+[ipv6_addrconf]                 107 I
+[kstrp]                         116 I
+[zswap-shrink]                  119 I
+[kworker/u257:0-hci0]           120 I
+[kworker/2:1H-kblockd]          146 I
+[kworker/2:2-rcu_par_gp]        173 I
+[kworker/3:1H-kblockd]          174 I
+[mpt_poll_0]                    175 I
+[mpt/0]                         176 I
+[cryptd]                        177 I
+[ata_sff]                       178 I
+[scsi_eh_0]                     186 S
+[scsi_tmf_0]                    187 I
+[scsi_eh_1]                     188 S
+[scsi_tmf_1]                    189 I
+[irq/16-vmwgfx]                 193 S
+[ttm_swap]                      194 I
+[card0-crtc0]                   197 S
+[card0-crtc1]                   198 S
+[card0-crtc2]                   199 S
+[card0-crtc3]                   200 S
+[card0-crtc4]                   201 S
+[card0-crtc5]                   202 S
+[card0-crtc6]                   203 S
+[card0-crtc7]                   204 S
+[scsi_eh_2]                     242 S
+[scsi_tmf_2]                    243 I
+[jbd2/sda1-8]                   290 S
+[ext4-rsv-conver]               291 I
+/lib/systemd/systemd-journa     346 S
+[rpciod]                        352 I
+[xprtiod]                       354 I
+vmware-vmblock-fuse /run/vm     363 S
+vmware-vmblock-fuse /run/vm     363 S
+vmware-vmblock-fuse /run/vm     363 S
+/lib/systemd/systemd-udevd      370 S
+/usr/sbin/haveged --Foregro     473 S
+/usr/bin/vmtoolsd               480 S
+/usr/bin/vmtoolsd               480 S
+/usr/bin/vmtoolsd               480 S
+/usr/sbin/cron -f               542 S
+/usr/bin/dbus-daemon --syst     543 S
+/usr/sbin/NetworkManager --     546 S
+/usr/sbin/NetworkManager --     546 S
+/usr/sbin/NetworkManager --     546 S
+[kworker/u257:2-hci0]           554 I
+/usr/libexec/polkitd --no-d     556 S
+/usr/libexec/polkitd --no-d     556 S
+/usr/libexec/polkitd --no-d     556 S
+/usr/sbin/rsyslogd -n -iNON     559 S
+/usr/sbin/rsyslogd -n -iNON     559 S
+/usr/sbin/rsyslogd -n -iNON     559 S
+/usr/sbin/rsyslogd -n -iNON     559 S
+/lib/systemd/systemd-logind     563 S
+/usr/sbin/ModemManager          589 S
+/usr/sbin/ModemManager          589 S
+/usr/sbin/ModemManager          589 S
+/usr/sbin/lightdm               600 S
+/usr/sbin/lightdm               600 S
+/usr/sbin/lightdm               600 S
+/usr/lib/xorg/Xorg :0 -seat     614 S
+/usr/lib/xorg/Xorg :0 -seat     614 S
+/sbin/agetty -o -p -- \u --     615 S
+/usr/libexec/rtkit-daemon       745 S
+/usr/libexec/rtkit-daemon       745 S
+/usr/libexec/rtkit-daemon       745 S
+lightdm --session-child 14      788 S
+lightdm --session-child 14      788 S
+lightdm --session-child 14      788 S
+/lib/systemd/systemd --user     796 S
+(sd-pam)                        797 S
+/usr/bin/pipewire               816 S
+/usr/bin/pipewire               816 S
+/usr/bin/pulseaudio --daemo     817 S
+/usr/bin/pulseaudio --daemo     817 S
+/usr/bin/pulseaudio --daemo     817 S
+/usr/bin/dbus-daemon --sess     819 S
+/usr/bin/pipewire-media-ses     821 S
+/usr/bin/pipewire-media-ses     821 S
+xfce4-session                   827 S
+xfce4-session                   827 S
+xfce4-session                   827 S
+/usr/bin/ssh-agent x-sessio     876 S
+/usr/libexec/at-spi-bus-lau     886 S
+/usr/libexec/at-spi-bus-lau     886 S
+/usr/libexec/at-spi-bus-lau     886 S
+/usr/libexec/at-spi-bus-lau     886 S
+/usr/bin/dbus-daemon --conf     891 S
+/usr/lib/x86_64-linux-gnu/x     895 S
+/usr/lib/x86_64-linux-gnu/x     895 S
+/usr/lib/x86_64-linux-gnu/x     895 S
+/usr/libexec/at-spi2-regist     901 S
+/usr/libexec/at-spi2-regist     901 S
+/usr/libexec/at-spi2-regist     901 S
+/usr/bin/gpg-agent --superv     911 S
+xfwm4 --display :0.0 --sm-c     913 S
+xfwm4 --display :0.0 --sm-c     913 S
+xfwm4 --display :0.0 --sm-c     913 S
+/usr/libexec/gvfsd              916 S
+/usr/libexec/gvfsd              916 S
+/usr/libexec/gvfsd              916 S
+/usr/libexec/gvfsd-fuse /ru     921 S
+/usr/libexec/gvfsd-fuse /ru     921 S
+/usr/libexec/gvfsd-fuse /ru     921 S
+/usr/libexec/gvfsd-fuse /ru     921 S
+/usr/libexec/gvfsd-fuse /ru     921 S
+/usr/libexec/gvfsd-fuse /ru     921 S
+xfsettingsd --display :0.0      929 S
+xfsettingsd --display :0.0      929 S
+xfsettingsd --display :0.0      929 S
+/usr/libexec/upowerd            932 S
+/usr/libexec/upowerd            932 S
+/usr/libexec/upowerd            932 S
+xfce4-panel --display :0.0      948 S
+xfce4-panel --display :0.0      948 S
+xfce4-panel --display :0.0      948 S
+Thunar --sm-client-id 22fdc     952 S
+Thunar --sm-client-id 22fdc     952 S
+Thunar --sm-client-id 22fdc     952 S
+xfdesktop --display :0.0 --     957 S
+xfdesktop --display :0.0 --     957 S
+xfdesktop --display :0.0 --     957 S
+/usr/libexec/gvfs-udisks2-v     958 S
+/usr/libexec/gvfs-udisks2-v     958 S
+/usr/libexec/gvfs-udisks2-v     958 S
+/usr/libexec/gvfs-udisks2-v     958 S
+/usr/libexec/udisks2/udisks     963 S
+/usr/libexec/udisks2/udisks     963 S
+/usr/libexec/udisks2/udisks     963 S
+/usr/libexec/udisks2/udisks     963 S
+/usr/libexec/udisks2/udisks     963 S
+/usr/lib/x86_64-linux-gnu/x     967 S
+/usr/lib/x86_64-linux-gnu/x     967 S
+/usr/lib/x86_64-linux-gnu/x     967 S
+/usr/libexec/gvfs-goa-volum     980 S
+/usr/libexec/gvfs-goa-volum     980 S
+/usr/libexec/gvfs-goa-volum     980 S
+/usr/libexec/gvfs-mtp-volum     984 S
+/usr/libexec/gvfs-mtp-volum     984 S
+/usr/libexec/gvfs-mtp-volum     984 S
+/usr/libexec/gvfs-gphoto2-v     988 S
+/usr/libexec/gvfs-gphoto2-v     988 S
+/usr/libexec/gvfs-gphoto2-v     988 S
+/usr/libexec/gvfs-afc-volum     992 S
+/usr/libexec/gvfs-afc-volum     992 S
+/usr/libexec/gvfs-afc-volum     992 S
+/usr/libexec/gvfs-afc-volum     992 S
+/usr/bin/qterminal -session     997 S
+/usr/bin/qterminal -session     997 S
+/usr/bin/qterminal -session     997 S
+xfce4-power-manager --resta     998 S
+xfce4-power-manager --resta     998 S
+xfce4-power-manager --resta     998 S
+/usr/libexec/gvfsd-metadata     999 S
+/usr/libexec/gvfsd-metadata     999 S
+/usr/libexec/gvfsd-metadata     999 S
+/usr/libexec/gvfsd-trash --    1008 S
+/usr/libexec/gvfsd-trash --    1008 S
+/usr/libexec/gvfsd-trash --    1008 S
+/usr/lib/x86_64-linux-gnu/x    1012 S
+/usr/lib/x86_64-linux-gnu/x    1012 S
+/usr/lib/x86_64-linux-gnu/x    1012 S
+/usr/lib/x86_64-linux-gnu/x    1016 S
+/usr/lib/x86_64-linux-gnu/x    1016 S
+/usr/lib/x86_64-linux-gnu/x    1016 S
+/usr/lib/x86_64-linux-gnu/x    1018 S
+/usr/lib/x86_64-linux-gnu/x    1018 S
+/usr/lib/x86_64-linux-gnu/x    1018 S
+/usr/lib/x86_64-linux-gnu/x    1019 S
+/usr/lib/x86_64-linux-gnu/x    1019 S
+/usr/lib/x86_64-linux-gnu/x    1019 S
+/usr/lib/x86_64-linux-gnu/x    1020 S
+/usr/lib/x86_64-linux-gnu/x    1020 S
+/usr/lib/x86_64-linux-gnu/x    1020 S
+/usr/lib/x86_64-linux-gnu/x    1024 S
+/usr/lib/x86_64-linux-gnu/x    1024 S
+/usr/lib/x86_64-linux-gnu/x    1024 S
+nm-applet                      1036 S
+nm-applet                      1036 S
+nm-applet                      1036 S
+nm-applet                      1036 S
+/usr/libexec/geoclue-2.0/de    1041 S
+/usr/libexec/geoclue-2.0/de    1041 S
+/usr/libexec/geoclue-2.0/de    1041 S
+/usr/bin/vmtoolsd -n vmusr     1054 S
+/usr/bin/vmtoolsd -n vmusr     1054 S
+/usr/bin/vmtoolsd -n vmusr     1054 S
+/usr/bin/vmtoolsd -n vmusr     1054 S
+light-locker                   1055 S
+light-locker                   1055 S
+light-locker                   1055 S
+light-locker                   1055 S
+xcape -e Super_L Control_L     1057 S
+xcape -e Super_L Control_L     1057 S
+xiccd                          1058 S
+xiccd                          1058 S
+xiccd                          1058 S
+/usr/bin/python3 /usr/bin/b    1062 S
+/usr/bin/python3 /usr/bin/b    1062 S
+/usr/bin/python3 /usr/bin/b    1062 S
+/usr/bin/python3 /usr/bin/b    1062 S
+/usr/lib/policykit-1-gnome/    1063 S
+/usr/lib/policykit-1-gnome/    1063 S
+/usr/lib/policykit-1-gnome/    1063 S
+/usr/libexec/dconf-service     1073 S
+/usr/libexec/dconf-service     1073 S
+/usr/libexec/dconf-service     1073 S
+/usr/bin/zsh                   1080 S
+/usr/libexec/colord            1087 S
+/usr/libexec/colord            1087 S
+/usr/libexec/colord            1087 S
+/usr/bin/python3 /usr/bin/b    1152 S
+/usr/bin/python3 /usr/bin/b    1152 S
+/usr/bin/python3 /usr/bin/b    1152 S
+/usr/libexec/bluetooth/obex    1154 S
+[kworker/0:1-events]           2180 I
+/usr/bin/zsh                   2241 S
+man ps                         2309 S
+pager                          2319 S
+[kworker/2:1-rcu_par_gp]       2334 I
+[kworker/0:2-events]           2380 I
+[kworker/u256:3-events_unbo    2414 I
+[kworker/3:0-events]           2504 I
+[kworker/u256:0-events_unbo    2505 I
+[kworker/1:2-ata_sff]          2540 I
+[kworker/2:0-events]           2568 I
+[kworker/1:0-ata_sff]          2620 I
+ps -AL -o cmd,pid,s            2625 R
